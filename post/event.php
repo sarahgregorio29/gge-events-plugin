@@ -36,6 +36,18 @@ class Post_Event extends Helper_Post{
                     'type' => 'text',
                 ),
                 array(
+                    'name' => 'Banner 1',
+                    'desc' => "Event Banner 1",
+                    'id'   => sprintf('%s%s', $prefix, 'banner1'),
+                    'type' => 'text',
+                ),
+                array(
+                    'name' => 'Banner 2',
+                    'desc' => "Event Banner 2",
+                    'id'   => sprintf('%s%s', $prefix, 'banner2'),
+                    'type' => 'text',
+                ),
+                array(
                     'name' => 'Event Announcement',
                     'desc' => 'Event announcement',
                     'id'   => 'post_content',
