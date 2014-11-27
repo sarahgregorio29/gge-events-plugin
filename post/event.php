@@ -66,10 +66,10 @@ class Post_Event extends Helper_Post{
                     'type' => 'wysiwyg',
                 ),
                 array(
-                    'name' => 'Registration Duration',
-                    'desc' => 'Start and end date of registration',
-                    'id'   => sprintf('%s%s', $prefix, 'start'),
-                    'type' => 'wysiwyg',
+                    'name' => 'End of Registration',
+                    'desc' => 'Due date of Registration. Ex. 2014-12-05',
+                    'id'   => sprintf('%s%s', $prefix, 'registration_end'),
+                    'type' => 'text',
                 ),
                 array(
                     'name' => 'Event Thumbnails',
